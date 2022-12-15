@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = load_model("D:\Pemrograman\Deployment\Input\Covid-19.h5")
+model = load_model("small.h5")
 
 model.make_predict_function()
 
